@@ -1,9 +1,9 @@
 const NavBar = ({setPage}) => {
     return ( 
 
-        <nav>
-            <button onClick={()=>setPage('planet')}>Planet</button>
-            <button onClick={()=>setPage('people')}>Planet</button>
+        <nav style={{textAlign:"center"}}>
+            <button onClick={()=>setPage('planets')}>Planets</button>
+            <button onClick={()=>setPage('peoples')}>Peoples</button>
         </nav>
      );
 }
